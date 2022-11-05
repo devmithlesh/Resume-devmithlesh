@@ -91,7 +91,7 @@ button:hover {
   height: 29.7cm;
   background: #fff;
   margin: 0 auto;
-  padding: 60px;
+  padding: 55px;
 }
 
 /*-------------------- Header Sart ---------------------*/
@@ -188,7 +188,7 @@ header {
 /*  <!--------- Divide Two Side Left or Right Side ---------> */
 .main_project_skill {
   display: grid;
-  grid-template-columns: repeat(2, 60% 40%);
+  grid-template-columns: repeat(2, 55% 40%);
   gap: 30px;
 }
 .project_div {
@@ -222,7 +222,7 @@ header {
   margin-bottom: 10px;
 }
 .after-traning-border {
-  width: 95%;
+  width: 100%;
 }
 /*---------------------- Education Start ------------------------*/
 .education {
@@ -330,7 +330,7 @@ header {
   background: var(--lightblack);
   position: absolute;
   top: 25px;
-  left: -30px;
+  left: -25px;
 }
 .border_rightside > span {
   width: 10px;
