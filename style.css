@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Allerta&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +25,14 @@ h2 {
   font-size: 20px;
   letter-spacing: 0.5px;
 }
+
 h4 {
   font-size: 14px;
   font-family: var(--Aller);
   color: var(--lightblack);
   letter-spacing: 0.3px;
 }
+
 p {
   font-size: 12px;
   font-family: var(--Aller);
@@ -37,28 +40,34 @@ p {
   line-height: 18px;
   letter-spacing: 0.2px;
 }
+
 h3 {
   font-size: 13px;
   font-family: var(--Aller);
   font-weight: 500;
 }
+
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }
+
 /*---------- Start Body Of Resume -----------*/
 .wrapper {
   width: 100%;
   background: #e6e4e4;
 }
+
 .button_design {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
 }
+
 button {
   border: none;
   outline: none;
@@ -67,11 +76,13 @@ button {
   padding: 12px 25px;
   cursor: pointer;
 }
+
 button:hover {
   background: var(--lightblack);
   color: #fff;
   transition: 0.4s;
 }
+
 .left_btn a {
   font-family: var(--Aller);
   font-size: 12px;
@@ -81,11 +92,13 @@ button:hover {
   cursor: pointer;
   color: var(--lightblack);
 }
+
 .left_btn a:hover {
   color: #fff;
   background: var(--lightblack);
   transition: 0.4s;
 }
+
 .container {
   width: 21cm;
   height: 29.7cm;
@@ -99,63 +112,79 @@ header {
   display: flex;
   grid-template-columns: repeat(2, 1fr);
 }
+
 /* Left Side of Header */
 .left_header {
   display: flex;
 }
+
 .left_header .profile {
   width: 25%;
 }
+
 .details {
   padding-left: 20px;
 }
-.details > h3 {
+
+.details>h3 {
   margin-top: 5px;
 }
+
 .details div {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
+
 .details div a {
   font-size: 12px;
   color: var(--blue-link);
   font-family: var(--Aller);
 }
+
 .details div a:hover {
   color: var(--blue);
 }
+
 .details div a:first-child {
   margin-bottom: 10px;
 }
+
 /*------------------------ Right Side Header -----------------------*/
 .right_header {
   text-align: right;
 }
+
 .right_header div {
   display: flex;
   align-items: center;
   justify-content: end;
   padding-top: 5px;
 }
+
 .right_header div:first-child {
   padding-top: 0;
 }
+
 .right_header div a {
   padding-right: 10px;
   color: var(--lightblack);
   font-family: var(--Aller);
   font-size: 12px;
 }
+
 .email-div {
   margin-right: 4px;
 }
+
 .email-div a {
   margin-right: 5px;
 }
+
 .contact_icons {
   width: 10%;
 }
+
 .contact_icons2 {
   width: 7%;
 }
@@ -164,6 +193,7 @@ header {
 .objective {
   margin: 30px 0;
 }
+
 .objective h2 {
   margin-bottom: 10px;
 }
@@ -174,6 +204,7 @@ header {
   background: var(--lightblack2);
   position: relative;
 }
+
 .border_obj .point_obj {
   width: 10px;
   height: 5px;
@@ -191,15 +222,19 @@ header {
   grid-template-columns: repeat(2, 55% 40%);
   gap: 30px;
 }
+
 .project_div {
   margin: 30px 0;
 }
+
 .project_div h2 {
   margin-bottom: 10px;
 }
+
 .project_div .tr_div h4 {
   margin-bottom: 15px;
 }
+
 .pro_links h4 {
   margin-top: 15px;
 }
@@ -207,9 +242,11 @@ header {
 .pro_links h4 {
   margin-bottom: 10px;
 }
+
 .pro_links ul li {
   padding: 5px 0;
 }
+
 .pro_links a {
   font-size: 12px;
   font-family: var(--Aller);
@@ -218,16 +255,20 @@ header {
 .tech {
   margin-top: 15px;
 }
+
 .tech h4 {
   margin-bottom: 10px;
 }
+
 .after-traning-border {
   width: 100%;
 }
+
 /*---------------------- Education Start ------------------------*/
 .education {
   margin-top: 30px;
 }
+
 .education h2 {
   margin-bottom: 15px;
 }
@@ -235,6 +276,7 @@ header {
 .tenth {
   margin-bottom: 15px;
 }
+
 .tenth h4 {
   margin-bottom: 10px;
 }
@@ -244,6 +286,7 @@ header {
   font-size: 13px;
   font-family: var(--Aller);
 }
+
 .tenth p {
   margin-top: 5px;
 }
@@ -251,15 +294,19 @@ header {
 .sr-sec h4 {
   margin-bottom: 10px;
 }
+
 .sr-sec p {
   margin-top: 5px;
 }
+
 .graducation {
   margin-top: 15px;
 }
+
 .graducation h4 {
   margin-bottom: 10px;
 }
+
 .graducation span {
   font-size: 13px;
   font-family: var(--Aller);
@@ -273,9 +320,11 @@ header {
 .pro_skills_div div h2 {
   margin-top: 30px;
 }
-.skill_type > p {
+
+.skill_type>p {
   margin: 10px 0;
 }
+
 .pro_skills_div .div_pro_s {
   margin-bottom: 30px;
 }
@@ -292,7 +341,8 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.strength_progress > span {
+
+.strength_progress>span {
   position: absolute;
   top: 0;
   left: 0;
@@ -300,14 +350,17 @@ header {
   background: var(--lightblack2);
   padding: 4px;
 }
+
 .progress_color1 {
   width: 60% !important;
   background: var(--lightblack2);
 }
+
 .progress_color {
   width: 40% !important;
   background: var(--lightblack2);
 }
+
 /* ------------------ Strengths ----------------------- */
 .strengths_main {
   margin-bottom: 30px;
@@ -321,9 +374,11 @@ header {
 .pro_skills_div {
   position: relative;
 }
+
 .transing_main_div {
   margin-right: 20px;
 }
+
 .border_rightside {
   width: 1px;
   height: 755px;
@@ -332,7 +387,8 @@ header {
   top: 25px;
   left: -25px;
 }
-.border_rightside > span {
+
+.border_rightside>span {
   width: 10px;
   height: 5px;
   background: #fff;
@@ -342,10 +398,25 @@ header {
   left: -6px;
   bottom: 0;
 }
+
+.contact1 a,
+.contact1 img {
+  transition: 0.4s;
+}
+
+.contact1:hover a {
+  color: var(--blue);
+}
+
+.contact1:hover img {
+  transform: translateX(-4px);
+}
+
 @media print {
   .button_design {
     display: none;
   }
+
   .container {
     display: block !important;
   }
